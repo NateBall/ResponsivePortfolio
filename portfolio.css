@@ -1,0 +1,317 @@
+* {
+    width: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width:960px;
+}
+
+#NateBall {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background: #4aaaa5;
+    border-color: #cccccc;
+    position: absolute;
+    float: left;
+    left: 270px;
+    top: 0;
+    color: white;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    line-height: 75px;
+}
+
+/* Container behind the Section */
+.wrapper {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url("../images/light-grey-terrazzo.png");
+    background-color: #cccccc;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    
+ }
+
+ /* Section that holds "About Me", face image, and paragraphs */
+section {
+    background-color: white;
+    height: 550px;
+    width: 850px;
+    margin: auto;
+    position: absolute;
+    left: 75px;
+    top: 45px; 
+    
+}
+
+h1 {
+    border-bottom: gray;
+    padding: 10px;
+    border-bottom-style: solid;
+    left: 30px;
+    position: relative;
+    border-spacing: 10px;
+    width: 750px;
+}
+
+ /* The top navigation buttons */
+ .topnav {
+    background-color: white;
+    overflow: hidden; 
+    left: 300px;
+    position: relative;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100px;
+    height: 25px;
+}
+
+.topnav a:hover {
+    background-color: #4aaaa5;
+    color:white;
+}
+
+.topnav a.active {
+    background-color: #7ecac6;
+    color: white;
+}
+
+.container {
+    position: absolute;
+}
+
+#Cap {
+    border-radius: 25px;
+    background-image: url("../../Basic-Portfolio/assets/images/Cap.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 60px;
+    float: left;
+}
+
+#CapText {
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    top: 135px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+#BB {
+    border-radius: 25px;
+    background-image: url("../../Basic-Portfolio/assets/images/bbowl.png");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 60px;
+    float: right;
+}
+
+#BBText {
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    top: 135px;
+    left: 490px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+#Fly {
+    border-radius: 25px;
+    background-image: url("../../Basic-Portfolio/assets/images/firefly.png");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 60px;
+    float: left;
+}
+
+#FlyText {
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    top: 350px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+#Fall {
+    border-radius: 25px;
+    background-image: url("../../Basic-Portfolio/assets/images/falloutboy.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: top center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 60px;
+    float: right;
+}
+
+#FallText {
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    top: 350px;
+    left: 490px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    border-top: 8px solid #4aaaa5
+}
+
+
+/* ClearFix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 640px) {
+    .topnav {
+        float:none;
+        left: 20px;
+        position: absolute;
+        top: 100px;
+    }
+
+    #NateBall {
+        float: none;
+        left: 20px;
+    }
+
+    .wrapper {
+        float: none;
+        left: 20px;
+        top: 200px;
+    }
+
+    section {
+        float: none;
+        left: 10px;
+        position: absolute;
+    }
+
+    body {
+        float: none;
+    }
+    
+    p {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav {
+        float:none;
+        left: 20px;
+        position: absolute;
+        top: 100px;
+    }
+
+    #NateBall {
+        float: none;
+        left: 20px;
+    }
+
+    .wrapper {
+        float: none;
+        left: 20px;
+        top: 200px;
+    }
+
+    section {
+        float: none;
+        left: 10px;
+        position: absolute;
+    }
+
+    body {
+        float: none;
+    }
+    
+    p {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .topnav {
+        float:none;
+        left: 20px;
+        position: absolute;
+        top: 100px;
+    }
+
+    #NateBall {
+        float: none;
+        left: 20px;
+    }
+
+    .wrapper {
+        float: none;
+        left: 20px;
+        top: 200px;
+    }
+
+    section {
+        float: none;
+        left: 10px;
+        position: absolute;
+    }
+
+    body {
+        float: none;
+    }
+    
+    p {
+        width: 350px;
+    }
+}
