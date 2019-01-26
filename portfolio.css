@@ -29,7 +29,7 @@ body {
     height: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: url("../images/light-grey-terrazzo.png");
+    background: url("../ResponsivePortfolio/falloutnv.jpg");
     background-color: #cccccc;
     position: relative;
     left: 250px;
@@ -92,19 +92,19 @@ h1 {
     position: absolute;
 }
 
-#Cap {
+#TMNT {
     border-radius: 25px;
-    background-image: url("../../Basic-Portfolio/assets/images/Cap.png");
+    background-image: url("../ResponsivePortfolio/turtlesimage.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+    background-size: 200px 200px;
+    background-position:center;
     width: 300px;
     height: 200px;
     margin: 10px 60px;
     float: left;
 }
 
-#CapText {
+#TMNTText {
     width: 300px;
     height: 50px;
     background-color: #4aaaa5;
@@ -117,9 +117,9 @@ h1 {
     line-height: 50px;
 }
 
-#BB {
+#CC {
     border-radius: 25px;
-    background-image: url("../../Basic-Portfolio/assets/images/bbowl.png");
+    background-image: url("../ResponsivePortfolio/crystal\ mine.png");
     background-repeat: no-repeat;
     background-size: 300px 200px;
     background-position: center;
@@ -129,7 +129,7 @@ h1 {
     float: right;
 }
 
-#BBText {
+#CCText {
     width: 300px;
     height: 50px;
     background-color: #4aaaa5;
